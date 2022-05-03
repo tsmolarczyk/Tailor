@@ -1,0 +1,52 @@
+.section {
+  background: linear-gradient(
+    209.93deg,
+    rgba(242, 98, 124, 0.15) 8.94%,
+    rgba(196, 196, 196, 0) 75.9%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.text {
+}
+
+.graphics {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 4rem;
+  left: -25rem;
+  border-radius: 0px 62px;
+  width: 42rem;
+  height: 54rem;
+}
+
+.background {
+  background: linear-gradient(17.97deg, #d5415b 0.77%, #ff718a 103.25%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 0px 80px;
+  top: 0;
+  width: 33.5rem;
+  height: 80rem;
+  right: 0;
+  z-index: -1;
+}
+
+.dots {
+  position: absolute;
+  width: 127px;
+  height: 140.8px;
+  background-color: grey;
+  top: 50rem;
+  right: 40rem;
+  z-index: -2;
+  bottom: 0;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  width: 22rem;
+  background: #ff5674;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'Poppins';
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+.right {
+  border-left: 1px solid #ffffff;
+  width: 64px;
+  height: 100%;
+  margin-right: 0;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  margin: 18px 20px 0 18px;
+}
+
+.wrapper:hover {
+  background-color: #f1607a;
+  border: 1px solid #ff5674;
+}
+
+.wrapper:hover > .right {
+  border: none;
+}

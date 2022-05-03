@@ -1,0 +1,7 @@
+.app {
+  background-color: blue;
+  font-family: 'Poppins';
+}
+.notpoppins {
+  font-family: Arial, Helvetica, sans-serif;
+}

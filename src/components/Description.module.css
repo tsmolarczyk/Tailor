@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.color {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 170%;
+
+  letter-spacing: 0.005em;
+
+  color: #f1607a;
+}
+
+.subtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+
+  color: #121212;
+}

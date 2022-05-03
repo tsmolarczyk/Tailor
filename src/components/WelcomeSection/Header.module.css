@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 1.51rem;
+  padding: 4rem 13rem;
+
+  align-items: center;
+}
+
+.elipse {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1.5rem;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #321913;
+  background-color: transparent;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+}
+
+.normal {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 5rem;
+
+  color: rgba(18, 18, 18, 0.8);
+  border: none;
+  background-color: transparent;
+}
+
+.login {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  height: 4.6rem;
+  width: 14rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+  margin-right: 0;
+  margin-left: 15rem;
+  cursor: pointer;
+
+  color: #f96a84;
+  background-color: #ffffff;
+  border: none;
+}
+
+.login:hover {
+  background-color: #f1607a;
+  color: #ffff;
+}
